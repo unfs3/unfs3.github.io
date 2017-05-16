@@ -55,3 +55,22 @@ a:visited {
 #content a {
     color: #7070ff;
 }
+
+@media screen and (max-width: 750px) {
+    #menu {
+        width: 95px;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    #menu ul {
+        padding-left: 15px;
+    }
+    #content {
+        padding: 5px;
+        border-radius: 14px;
+    }
+    #logo {
+        width: 118px;
+        height: 45px;
+    }
+}
