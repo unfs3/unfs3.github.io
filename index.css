@@ -41,12 +41,12 @@ a:visited {
 
 #content {
     vertical-align: top;
+    float: left;
+    max-width: 800px;
     background-color: #ffffff;
-    border: 0px;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
     padding: 20px;
-}
-#content table {
-    width: 600px;
 }
 #content h1 {
     text-align: center;
